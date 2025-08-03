@@ -1,0 +1,130 @@
+[
+  {
+    "config_path": "tax_lawyer.yml",
+    "query": "Experienced tax lawyer with over 3 years of experience in corporate tax structuring and IRS audits",
+    "hard_criteria": {
+      "yearsOfWorkExperience": 3,
+      "experience_titles": "tax lawyer",
+      "education_degrees": "Juris Doctor"
+    },
+    "soft_criteria": {
+      "prestige_score_weight": 0.7,
+      "experience_weight": 0.3
+    }
+  },
+  {
+    "config_path": "junior_corporate_lawyer.yml",
+    "query": "Junior corporate lawyer with 2 years of experience in M&A and contract negotiation",
+    "hard_criteria": {
+      "yearsOfWorkExperience": 2,
+      "experience_titles": "corporate lawyer",
+      "education_degrees": "Law degree"
+    },
+    "soft_criteria": {
+      "prestige_score_weight": 0.5,
+      "experience_weight": 0.5
+    }
+  },
+  {
+    "config_path": "radiology.yml",
+    "query": "Radiologist with MD from India and experience reading CT and MRI scans",
+    "hard_criteria": {
+      "education_degrees": "MD",
+      "education_country": "India"
+    },
+    "soft_criteria": {
+      "prestige_score_weight": 0.4,
+      "experience_weight": 0.6
+    }
+  },
+  {
+    "config_path": "doctors_md.yml",
+    "query": "U.S.-trained general practitioner with 2+ years of clinical experience",
+    "hard_criteria": {
+      "yearsOfWorkExperience": 2,
+      "experience_titles": "General Practitioner",
+      "education_degrees": "MD"
+    },
+    "soft_criteria": {
+      "prestige_score_weight": 0.6,
+      "experience_weight": 0.4
+    }
+  },
+  {
+    "config_path": "biology_expert.yml",
+    "query": "Molecular biologist with a PhD from a top U.S. university and research experience",
+    "hard_criteria": {
+      "education_degrees": "PhD",
+      "field_of_study": "Biology",
+      "education_country": "USA"
+    },
+    "soft_criteria": {
+      "prestige_score_weight": 0.7,
+      "experience_weight": 0.3
+    }
+  },
+  {
+    "config_path": "anthropology.yml",
+    "query": "PhD student in anthropology with focus on labor migration and cultural identity",
+    "hard_criteria": {
+      "education_degrees": "PhD",
+      "field_of_study": "Anthropology",
+      "education_status": "in progress"
+    },
+    "soft_criteria": {
+      "prestige_score_weight": 0.6,
+      "experience_weight": 0.4
+    }
+  },
+  {
+    "config_path": "mathematics_phd.yml",
+    "query": "Mathematician with a PhD in statistics and experience in stochastic processes",
+    "hard_criteria": {
+      "education_degrees": "PhD",
+      "field_of_study": "Mathematics or Statistics",
+      "education_country": "USA"
+    },
+    "soft_criteria": {
+      "prestige_score_weight": 0.7,
+      "experience_weight": 0.3
+    }
+  },
+  {
+    "config_path": "quantitative_finance.yml",
+    "query": "Quantitative finance professional with MBA and experience in trading and modeling",
+    "hard_criteria": {
+      "education_degrees": "MBA",
+      "yearsOfWorkExperience": 3,
+      "field_of_experience": "quantitative finance"
+    },
+    "soft_criteria": {
+      "prestige_score_weight": 0.6,
+      "experience_weight": 0.4
+    }
+  },
+  {
+    "config_path": "bankers.yml",
+    "query": "Healthcare investment banker with over 2 years of experience and MBA",
+    "hard_criteria": {
+      "education_degrees": "MBA",
+      "yearsOfWorkExperience": 2,
+      "field_of_experience": "investment banking"
+    },
+    "soft_criteria": {
+      "prestige_score_weight": 0.5,
+      "experience_weight": 0.5
+    }
+  },
+  {
+    "config_path": "mechanical_engineers.yml",
+    "query": "Mechanical engineer with 3+ years in structural design and thermal systems",
+    "hard_criteria": {
+      "education_degrees": "Mechanical Engineering",
+      "yearsOfWorkExperience": 3
+    },
+    "soft_criteria": {
+      "prestige_score_weight": 0.4,
+      "experience_weight": 0.6
+    }
+  }
+]

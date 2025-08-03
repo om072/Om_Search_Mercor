@@ -1,0 +1,7 @@
+pymongo
+turbopuffer
+numpy
+requests
+python-dotenv
+openai
+voyageai
